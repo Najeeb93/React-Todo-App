@@ -13,7 +13,7 @@ function TodoList({todos, onDelete}) {
           <div key={todo.id} className='flex my-2 bg-slate-100'>
             <h3 className='text-2xl text-left py-2 pl-2 font-mono font-medium flex-1'>{todo.todo}</h3>
             <button onClick={()=>onDelete(todo.id)}
-             className='bg-red-300 rounded-md p-2 px-3'>Delete</button>
+             className='bg-red-300 rounded-sm p-2 px-5 '>Delete</button>
 
           </div>
         );
